@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62CC0E11229E7A0500FA8CAF /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62CC0E10229E7A0500FA8CAF /* CollectionViewCell.m */; };
+		62F6061C226D4D9300906275 /* HPolygonalRadarConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F6061B226D4D9300906275 /* HPolygonalRadarConfig.m */; };
+		62FA79F4226976D90070646D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FA79F3226976D90070646D /* AppDelegate.m */; };
+		62FA79F7226976D90070646D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FA79F6226976D90070646D /* ViewController.m */; };
+		62FA79FA226976D90070646D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62FA79F8226976D90070646D /* Main.storyboard */; };
+		62FA79FC226976DA0070646D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62FA79FB226976DA0070646D /* Assets.xcassets */; };
+		62FA79FF226976DA0070646D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62FA79FD226976DA0070646D /* LaunchScreen.storyboard */; };
+		62FA7A02226976DA0070646D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FA7A01226976DA0070646D /* main.m */; };
+		62FA7A0C226976DA0070646D /* HPolygonalRadarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FA7A0B226976DA0070646D /* HPolygonalRadarTests.m */; };
+		62FA7A17226976DA0070646D /* HPolygonalRadarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FA7A16226976DA0070646D /* HPolygonalRadarUITests.m */; };
+		62FA7A26226977120070646D /* HPolygonalRadarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FA7A25226977120070646D /* HPolygonalRadarView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62FA7A08226976DA0070646D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62FA79E7226976D90070646D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62FA79EE226976D90070646D;
+			remoteInfo = HPolygonalRadar;
+		};
+		62FA7A13226976DA0070646D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62FA79E7226976D90070646D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62FA79EE226976D90070646D;
+			remoteInfo = HPolygonalRadar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62CC0E0F229E7A0500FA8CAF /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		62CC0E10229E7A0500FA8CAF /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		62F6061A226D4D9300906275 /* HPolygonalRadarConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPolygonalRadarConfig.h; sourceTree = "<group>"; };
+		62F6061B226D4D9300906275 /* HPolygonalRadarConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPolygonalRadarConfig.m; sourceTree = "<group>"; };
+		62FA79EF226976D90070646D /* HPolygonalRadar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPolygonalRadar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62FA79F2226976D90070646D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62FA79F3226976D90070646D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62FA79F5226976D90070646D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		62FA79F6226976D90070646D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		62FA79F9226976D90070646D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62FA79FB226976DA0070646D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62FA79FE226976DA0070646D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62FA7A00226976DA0070646D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62FA7A01226976DA0070646D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62FA7A07226976DA0070646D /* HPolygonalRadarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPolygonalRadarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62FA7A0B226976DA0070646D /* HPolygonalRadarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPolygonalRadarTests.m; sourceTree = "<group>"; };
+		62FA7A0D226976DA0070646D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62FA7A12226976DA0070646D /* HPolygonalRadarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPolygonalRadarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62FA7A16226976DA0070646D /* HPolygonalRadarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPolygonalRadarUITests.m; sourceTree = "<group>"; };
+		62FA7A18226976DA0070646D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62FA7A24226977120070646D /* HPolygonalRadarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPolygonalRadarView.h; sourceTree = "<group>"; };
+		62FA7A25226977120070646D /* HPolygonalRadarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPolygonalRadarView.m; sourceTree = "<group>"; };
+		62FA7A27226996E40070646D /* HPolygonalRadarEnumDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPolygonalRadarEnumDefine.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62FA79EC226976D90070646D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62FA7A04226976DA0070646D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62FA7A0F226976DA0070646D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62CC0E0A229E775400FA8CAF /* HPolygonalRadar */ = {
+			isa = PBXGroup;
+			children = (
+				62F6061A226D4D9300906275 /* HPolygonalRadarConfig.h */,
+				62F6061B226D4D9300906275 /* HPolygonalRadarConfig.m */,
+				62FA7A27226996E40070646D /* HPolygonalRadarEnumDefine.h */,
+				62FA7A24226977120070646D /* HPolygonalRadarView.h */,
+				62FA7A25226977120070646D /* HPolygonalRadarView.m */,
+			);
+			name = HPolygonalRadar;
+			sourceTree = "<group>";
+		};
+		62CC0E0B229E777D00FA8CAF /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				62FA79F5226976D90070646D /* ViewController.h */,
+				62FA79F6226976D90070646D /* ViewController.m */,
+				62CC0E0F229E7A0500FA8CAF /* CollectionViewCell.h */,
+				62CC0E10229E7A0500FA8CAF /* CollectionViewCell.m */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		62FA79E6226976D90070646D = {
+			isa = PBXGroup;
+			children = (
+				62FA79F1226976D90070646D /* HPolygonalRadar */,
+				62FA7A0A226976DA0070646D /* HPolygonalRadarTests */,
+				62FA7A15226976DA0070646D /* HPolygonalRadarUITests */,
+				62FA79F0226976D90070646D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62FA79F0226976D90070646D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62FA79EF226976D90070646D /* HPolygonalRadar.app */,
+				62FA7A07226976DA0070646D /* HPolygonalRadarTests.xctest */,
+				62FA7A12226976DA0070646D /* HPolygonalRadarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62FA79F1226976D90070646D /* HPolygonalRadar */ = {
+			isa = PBXGroup;
+			children = (
+				62CC0E0B229E777D00FA8CAF /* Demo */,
+				62CC0E0A229E775400FA8CAF /* HPolygonalRadar */,
+				62FA79F2226976D90070646D /* AppDelegate.h */,
+				62FA79F3226976D90070646D /* AppDelegate.m */,
+				62FA79FB226976DA0070646D /* Assets.xcassets */,
+				62FA7A00226976DA0070646D /* Info.plist */,
+				62FA79FD226976DA0070646D /* LaunchScreen.storyboard */,
+				62FA7A01226976DA0070646D /* main.m */,
+				62FA79F8226976D90070646D /* Main.storyboard */,
+			);
+			path = HPolygonalRadar;
+			sourceTree = "<group>";
+		};
+		62FA7A0A226976DA0070646D /* HPolygonalRadarTests */ = {
+			isa = PBXGroup;
+			children = (
+				62FA7A0B226976DA0070646D /* HPolygonalRadarTests.m */,
+				62FA7A0D226976DA0070646D /* Info.plist */,
+			);
+			path = HPolygonalRadarTests;
+			sourceTree = "<group>";
+		};
+		62FA7A15226976DA0070646D /* HPolygonalRadarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62FA7A16226976DA0070646D /* HPolygonalRadarUITests.m */,
+				62FA7A18226976DA0070646D /* Info.plist */,
+			);
+			path = HPolygonalRadarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62FA79EE226976D90070646D /* HPolygonalRadar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62FA7A1B226976DA0070646D /* Build configuration list for PBXNativeTarget "HPolygonalRadar" */;
+			buildPhases = (
+				62FA79EB226976D90070646D /* Sources */,
+				62FA79EC226976D90070646D /* Frameworks */,
+				62FA79ED226976D90070646D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HPolygonalRadar;
+			productName = HPolygonalRadar;
+			productReference = 62FA79EF226976D90070646D /* HPolygonalRadar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62FA7A06226976DA0070646D /* HPolygonalRadarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62FA7A1E226976DA0070646D /* Build configuration list for PBXNativeTarget "HPolygonalRadarTests" */;
+			buildPhases = (
+				62FA7A03226976DA0070646D /* Sources */,
+				62FA7A04226976DA0070646D /* Frameworks */,
+				62FA7A05226976DA0070646D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62FA7A09226976DA0070646D /* PBXTargetDependency */,
+			);
+			name = HPolygonalRadarTests;
+			productName = HPolygonalRadarTests;
+			productReference = 62FA7A07226976DA0070646D /* HPolygonalRadarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62FA7A11226976DA0070646D /* HPolygonalRadarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62FA7A21226976DA0070646D /* Build configuration list for PBXNativeTarget "HPolygonalRadarUITests" */;
+			buildPhases = (
+				62FA7A0E226976DA0070646D /* Sources */,
+				62FA7A0F226976DA0070646D /* Frameworks */,
+				62FA7A10226976DA0070646D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62FA7A14226976DA0070646D /* PBXTargetDependency */,
+			);
+			name = HPolygonalRadarUITests;
+			productName = HPolygonalRadarUITests;
+			productReference = 62FA7A12226976DA0070646D /* HPolygonalRadarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62FA79E7226976D90070646D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "何正道";
+				TargetAttributes = {
+					62FA79EE226976D90070646D = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					62FA7A06226976DA0070646D = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 62FA79EE226976D90070646D;
+					};
+					62FA7A11226976DA0070646D = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 62FA79EE226976D90070646D;
+					};
+				};
+			};
+			buildConfigurationList = 62FA79EA226976D90070646D /* Build configuration list for PBXProject "HPolygonalRadar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62FA79E6226976D90070646D;
+			productRefGroup = 62FA79F0226976D90070646D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62FA79EE226976D90070646D /* HPolygonalRadar */,
+				62FA7A06226976DA0070646D /* HPolygonalRadarTests */,
+				62FA7A11226976DA0070646D /* HPolygonalRadarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62FA79ED226976D90070646D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62FA79FF226976DA0070646D /* LaunchScreen.storyboard in Resources */,
+				62FA79FC226976DA0070646D /* Assets.xcassets in Resources */,
+				62FA79FA226976D90070646D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62FA7A05226976DA0070646D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62FA7A10226976DA0070646D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62FA79EB226976D90070646D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62CC0E11229E7A0500FA8CAF /* CollectionViewCell.m in Sources */,
+				62FA79F7226976D90070646D /* ViewController.m in Sources */,
+				62FA7A02226976DA0070646D /* main.m in Sources */,
+				62F6061C226D4D9300906275 /* HPolygonalRadarConfig.m in Sources */,
+				62FA7A26226977120070646D /* HPolygonalRadarView.m in Sources */,
+				62FA79F4226976D90070646D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62FA7A03226976DA0070646D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62FA7A0C226976DA0070646D /* HPolygonalRadarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62FA7A0E226976DA0070646D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62FA7A17226976DA0070646D /* HPolygonalRadarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62FA7A09226976DA0070646D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62FA79EE226976D90070646D /* HPolygonalRadar */;
+			targetProxy = 62FA7A08226976DA0070646D /* PBXContainerItemProxy */;
+		};
+		62FA7A14226976DA0070646D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62FA79EE226976D90070646D /* HPolygonalRadar */;
+			targetProxy = 62FA7A13226976DA0070646D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62FA79F8226976D90070646D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62FA79F9226976D90070646D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62FA79FD226976DA0070646D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62FA79FE226976DA0070646D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62FA7A19226976DA0070646D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		62FA7A1A226976DA0070646D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62FA7A1C226976DA0070646D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HPolygonalRadar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hzd.component.HPolygonalRadar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62FA7A1D226976DA0070646D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HPolygonalRadar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hzd.component.HPolygonalRadar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		62FA7A1F226976DA0070646D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HPolygonalRadarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hzd.component.HPolygonalRadarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HPolygonalRadar.app/HPolygonalRadar";
+			};
+			name = Debug;
+		};
+		62FA7A20226976DA0070646D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HPolygonalRadarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hzd.component.HPolygonalRadarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HPolygonalRadar.app/HPolygonalRadar";
+			};
+			name = Release;
+		};
+		62FA7A22226976DA0070646D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HPolygonalRadarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hzd.component.HPolygonalRadarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HPolygonalRadar;
+			};
+			name = Debug;
+		};
+		62FA7A23226976DA0070646D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HPolygonalRadarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hzd.component.HPolygonalRadarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HPolygonalRadar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62FA79EA226976D90070646D /* Build configuration list for PBXProject "HPolygonalRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62FA7A19226976DA0070646D /* Debug */,
+				62FA7A1A226976DA0070646D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62FA7A1B226976DA0070646D /* Build configuration list for PBXNativeTarget "HPolygonalRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62FA7A1C226976DA0070646D /* Debug */,
+				62FA7A1D226976DA0070646D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62FA7A1E226976DA0070646D /* Build configuration list for PBXNativeTarget "HPolygonalRadarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62FA7A1F226976DA0070646D /* Debug */,
+				62FA7A20226976DA0070646D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62FA7A21226976DA0070646D /* Build configuration list for PBXNativeTarget "HPolygonalRadarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62FA7A22226976DA0070646D /* Debug */,
+				62FA7A23226976DA0070646D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62FA79E7226976D90070646D /* Project object */;
+}
